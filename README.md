@@ -343,7 +343,7 @@ cat results/efficiency_by_league.csv
 
 ---
 
-## 🔍 Limitations & Future Work
+## 🔍 Limitations
 
 ### Current Limitations
 
@@ -353,7 +353,7 @@ cat results/efficiency_by_league.csv
 4. **No resale value:** Market value appreciation not tracked
 5. **Sample size:** 238 paid transfers (some categories have small n)
 
-### Future Enhancements
+### Enhancements
 
 1. **Expand to defensive metrics**
    - Tackles, interceptions, clean sheets
@@ -375,53 +375,9 @@ cat results/efficiency_by_league.csv
    - Feature importance for efficiency drivers
    - Transfer valuation tool
 
-5. **Temporal analysis**
-   - Multi-season efficiency trends
-   - Market inflation patterns
-   - COVID-19 impact on transfers
 
-6. **Expand league coverage**
-   - Include Championship, Eredivisie, Primeira Liga
-   - Cross-continental comparisons
-   - Emerging market analysis
 
----
 
-## 🤝 Contributing
-
-Contributions are welcome! Areas for contribution:
-
-- Additional data sources (salaries, market values)
-- Alternative efficiency metrics (defensive, goalkeeper)
-- Advanced modeling techniques (ML, causal inference)
-- Visualization improvements
-- Documentation enhancements
-
-Please open an issue or submit a pull request.
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-## 📧 Contact
-
-For questions, collaboration, or suggestions:
-
-- **GitHub:** [@mehmetyalc](https://github.com/mehmetyalc)
-- **Repository:** [transfer-economic-efficiency](https://github.com/mehmetyalc/transfer-economic-efficiency)
-- **Issues:** [Report a bug or request a feature](https://github.com/mehmetyalc/transfer-economic-efficiency/issues)
-
----
-
-## 🔗 Related Projects
-
-- **[Transfer Success Prediction](https://github.com/mehmetyalc/transfer-success-prediction)** - ML models predicting transfer success with 98.4% F1-score
-
----
 
 ## 🎓 Theoretical Background
 
@@ -437,26 +393,4 @@ This project draws on:
 - Farrell, M.J. (1957). "The Measurement of Productive Efficiency"
 - Charnes, A., Cooper, W.W., & Rhodes, E. (1978). "Measuring the efficiency of decision making units"
 - Carmichael, F., & Thomas, D. (2005). "Production and efficiency in team sports"
-
----
-
-## 📊 Project Statistics
-
-- **Lines of Code:** ~1,500+
-- **Analysis Scripts:** 3
-- **Visualizations:** 2 comprehensive dashboards (11 charts total)
-- **Documentation:** 20-page comprehensive report
-- **Data Points:** 238 transfers × 19 metrics = 4,522 data points
-- **Git Commits:** 10+
-- **Development Time:** 2 days
-
----
-
-**Disclaimer:** This is a research and educational project. Results should complement, not replace, professional scouting and expert judgment in transfer decisions. Past performance does not guarantee future results.
-
----
-
-**Last Updated:** October 26, 2025  
-**Version:** 1.0  
-**Status:** ✅ Complete - Production-ready analysis
 
