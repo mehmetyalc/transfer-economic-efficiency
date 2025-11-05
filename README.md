@@ -12,7 +12,7 @@ This project analyzes the economic efficiency of football transfers by measuring
 
 ---
 
-## 🎯 Key Findings
+##  Key Findings
 
 ### Overall Efficiency
 
@@ -25,28 +25,28 @@ This project analyzes the economic efficiency of football transfers by measuring
 
 | Fee Bracket | Avg Efficiency | Cost/Goal | Key Insight |
 |-------------|---------------|-----------|-------------|
-| **<€1M** | **52.85** ✅ | €0.20M | **Most efficient** - low-cost signings deliver best value |
+| **<€1M** | **52.85**  | €0.20M | **Most efficient** - low-cost signings deliver best value |
 | €1-5M | 49.66 | €2.14M | Good balance of cost and performance |
 | €5-10M | 50.66 | €3.98M | **Optimal sweet spot** - highest avg goals (3.12) |
 | €10-20M | 48.83 | €6.24M | Below-average efficiency |
 | €20-50M | 47.89 | €12.24M | Poor value relative to cost |
-| **>€50M** | **35.52** ❌ | €42.76M | **Least efficient** - 27% below average |
+| **>€50M** | **35.52**  | €42.76M | **Least efficient** - 27% below average |
 
 ### League Comparison
 
 | League | Avg Efficiency | Avg Fee | Avg Goals | Insight |
 |--------|---------------|---------|-----------|---------|
-| **Serie A** | **53.26** ✅ | €6.9M | 1.98 | **Most efficient league** |
+| **Serie A** | **53.26**  | €6.9M | 1.98 | **Most efficient league** |
 | Bundesliga | 50.31 | €6.1M | 2.23 | Strong value and development |
 | La Liga | 49.73 | €4.8M | 2.41 | Moderate fees, good output |
 | Ligue 1 | 47.59 | €10.6M | 2.15 | Underperforms relative to spending |
-| **Premier League** | **45.67** ❌ | **€31.5M** | 3.43 | **Least efficient** - fee inflation |
+| **Premier League** | **45.67**  | **€31.5M** | 3.43 | **Least efficient** - fee inflation |
 
 ### Position Analysis
 
 | Position | Avg Efficiency | Avg Fee | Avg Goals |
 |----------|---------------|---------|-----------|
-| **Forward** | **51.90** ✅ | €15.2M | 4.22 |
+| **Forward** | **51.90**  | €15.2M | 4.22 |
 | Midfielder | 51.52 | €15.7M | 2.34 |
 | Defender | 45.36 | €7.1M | 0.71 |
 | Goalkeeper | 32.75 | €5.6M | 0.00 |
@@ -55,7 +55,7 @@ This project analyzes the economic efficiency of football transfers by measuring
 
 ---
 
-## 📊 Visualizations
+##  Visualizations
 
 ### Efficiency Dashboard
 ![Efficiency Dashboard](results/figures/efficiency_dashboard.png)
@@ -78,7 +78,7 @@ This project analyzes the economic efficiency of football transfers by measuring
 
 ---
 
-## 💡 Strategic Recommendations
+##  Strategic Recommendations
 
 ### For Football Clubs
 
@@ -109,10 +109,10 @@ This project analyzes the economic efficiency of football transfers by measuring
 
 ### Key Correlation Insights
 
-- **Transfer fee ↔ Efficiency:** -0.160 (negative) ⚠️
-- **Goals ↔ Efficiency:** +0.476 (strong positive) ✅
-- **Assists ↔ Efficiency:** +0.450 (strong positive) ✅
-- **VfM Score ↔ Efficiency:** +0.496 (strong positive) ✅
+- **Transfer fee ↔ Efficiency:** -0.160 (negative) ⚠
+- **Goals ↔ Efficiency:** +0.476 (strong positive) 
+- **Assists ↔ Efficiency:** +0.450 (strong positive) 
+- **VfM Score ↔ Efficiency:** +0.496 (strong positive) 
 
 **Implication:** Performance drives efficiency, not price. Data-driven scouting can identify undervalued players.
 
@@ -166,7 +166,7 @@ All metrics normalized to 0-100 scale for comparability.
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 transfer-economic-efficiency/
@@ -197,7 +197,7 @@ transfer-economic-efficiency/
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -249,7 +249,7 @@ cat results/efficiency_by_league.csv
 
 ---
 
-## 📈 Top 10 Most Efficient Transfers
+##  Top 10 Most Efficient Transfers
 
 | Rank | Player | Fee | Goals | Assists | Efficiency | Category |
 |------|--------|-----|-------|---------|------------|----------|
@@ -268,7 +268,7 @@ cat results/efficiency_by_league.csv
 
 ---
 
-## 📊 Dataset Information
+##  Dataset Information
 
 ### Data Sources
 
@@ -281,10 +281,10 @@ cat results/efficiency_by_league.csv
 
 ### Data Quality
 
-- ✅ Validated transfer fees from multiple sources
-- ✅ Complete performance data (goals, assists, minutes)
-- ✅ League and position classifications
-- ✅ Consistent data format and structure
+-  Validated transfer fees from multiple sources
+-  Complete performance data (goals, assists, minutes)
+-  League and position classifications
+-  Consistent data format and structure
 
 ---
 
@@ -343,7 +343,7 @@ cat results/efficiency_by_league.csv
 
 ---
 
-## 🔍 Limitations
+##  Limitations
 
 ### Current Limitations
 
@@ -379,7 +379,7 @@ cat results/efficiency_by_league.csv
 
 
 
-## 🎓 Theoretical Background
+##  Theoretical Background
 
 This project draws on:
 
